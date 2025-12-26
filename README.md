@@ -4,11 +4,6 @@
 > This is a **console-based Java* built using **JDBC**.
 > It performs **CRUD operations** (Create, Read, Update, Delete) on a **MySQL database** using **PreparedStatement**.
 > The follows **proper backend structure** using **Model, DAO, and Utility layers**.
-
----
-
-## 🔹 I BUILD THIS ?
-
 > I built this to understand **how Java communicates with a database internally**, before learning Spring Boot.
 > This helped me understand **JDBC fundamentals**, **database connections**, and **backend architecture**, which Spring Boot uses internally.
 
@@ -105,7 +100,7 @@ Write this:
 ```
 
 ---
-> Through this, I learned:
+## Through this, I learned:
 >
 > * How Java connects to MySQL using JDBC
 > * How backend applications are structured
