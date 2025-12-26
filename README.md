@@ -1,13 +1,13 @@
 **JDBC User Management System**
 
----
+```text
 > This is a **console-based Java* built using **JDBC**.
 > It performs **CRUD operations** (Create, Read, Update, Delete) on a **MySQL database** using **PreparedStatement**.
 > The follows **proper backend structure** using **Model, DAO, and Utility layers**.
 > I built this to understand **how Java communicates with a database internally**, before learning Spring Boot.
 > This helped me understand **JDBC fundamentals**, **database connections**, and **backend architecture**, which Spring Boot uses internally.
 
----
+```
 
 ## 🔹 TECHNOLOGIES USED
 
@@ -65,22 +65,23 @@ src/
 ---
 
 ### 4️⃣ `MainApp.java` (Main Layer)
-
+```text
 > This is the entry point of the application.
 > It calls methods from `UserDao` to perform database operations and displays output in the console.
 
----
+```
 
 ## 🔹 CRUD OPERATIONS IMPLEMENTED
 
-Write this:
-
+```text
 * ✅ Insert user into database
 * ✅ Fetch all users from database
 * ✅ Update user details (optional extension)
 * ✅ Delete user (optional extension)
 
----
+```
+
+```text
 > PreparedStatement is used instead of Statement because it:
 > * Prevents **SQL Injection**
 > * Improves **performance**
@@ -88,7 +89,7 @@ Write this:
 >
 > Spring Boot internally uses PreparedStatement through JPA and Hibernate.
 
----
+```
 
 ## 🔹 Steps TO RUN THIS
 
@@ -102,7 +103,9 @@ Write this:
 ---
 ## Through this, I learned:
 >
+```text
 > * How Java connects to MySQL using JDBC
 > * How backend applications are structured
 > * How CRUD operations work internally
 > * Why frameworks like Spring Boot are needed
+> * ```
