@@ -1,6 +1,6 @@
 **JDBC User Management System**
 
-```text
+```
 > This is a **console-based Java* built using **JDBC**.
 > It performs **CRUD operations** (Create, Read, Update, Delete) on a **MySQL database** using **PreparedStatement**.
 > The follows **proper backend structure** using **Model, DAO, and Utility layers**.
