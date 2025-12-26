@@ -36,17 +36,16 @@ src/
           └── MainApp.java
 ```
 
----
 
-## 🔹 FILE EXPLANATION
+## 🔹 FILES
 
 ### 1️⃣ `User.java` (Model Layer)
 
+```text
 > This class represents a "User entity".
 > It stores user details such as "id, name, email, and age".
 > This class is used to "transfer data between Java and the database".
-
----
+```
 
 ### 2️⃣ `DBUtil.java` (Utility Layer)
 ```text
