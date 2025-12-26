@@ -1,11 +1,11 @@
 **JDBC User Management System**
 
 ```text
-> This is a **console-based Java* built using **JDBC**.
-> It performs **CRUD operations** (Create, Read, Update, Delete) on a **MySQL database** using **PreparedStatement**.
-> The follows **proper backend structure** using **Model, DAO, and Utility layers**.
-> I built this to understand **how Java communicates with a database internally**, before learning Spring Boot.
-> This helped me understand **JDBC fundamentals**, **database connections**, and **backend architecture**, which Spring Boot uses internally.
+This is a console-based Java built using JDBC.
+It performs "CRUD operations" (Create, Read, Update, Delete) on a "MySQL database" using "PreparedStatement".
+The follows "proper backend structure" using "Model, DAO, and Utility layers".
+I built this to understand "how Java communicates with a database internally", before learning Spring Boot.
+This helped me understand JDBC fundamentals,database connections, and backend architecture, which Spring Boot uses internally.
 
 ```
 
@@ -42,27 +42,25 @@ src/
 
 ### 1️⃣ `User.java` (Model Layer)
 
-> This class represents a **User entity**.
-> It stores user details such as **id, name, email, and age**.
-> This class is used to **transfer data between Java and the database**.
+> This class represents a "User entity".
+> It stores user details such as "id, name, email, and age".
+> This class is used to "transfer data between Java and the database".
 
 ---
 
 ### 2️⃣ `DBUtil.java` (Utility Layer)
-
-> This class is responsible for **creating and managing database connections**.
-> It avoids repeating connection code in multiple places.
-> In Spring Boot, this functionality is handled automatically by the framework.
-
----
-
+```text
+This class is responsible for "creating and managing database connections".
+It avoids repeating connection code in multiple places.
+In Spring Boot, this functionality is handled automatically by the framework.
+```
 ### 3️⃣ `UserDao.java` (DAO Layer)
+```text
+This class handles all database operations using JDBC.
+It uses "PreparedStatement" to execute SQL queries securely.
+All CRUD operations such as "insert and select" are written here.
 
-> This class handles all **database operations** using JDBC.
-> It uses **PreparedStatement** to execute SQL queries securely.
-> All CRUD operations such as **insert and select** are written here.
-
----
+```
 
 ### 4️⃣ `MainApp.java` (Main Layer)
 ```text
@@ -81,16 +79,6 @@ src/
 
 ```
 
-```text
-> PreparedStatement is used instead of Statement because it:
-> * Prevents **SQL Injection**
-> * Improves **performance**
-> * Is **industry standard**
->
-> Spring Boot internally uses PreparedStatement through JPA and Hibernate.
-
-```
-
 ## 🔹 Steps TO RUN THIS
 
 ```text
@@ -104,8 +92,8 @@ src/
 ## Through this, I learned:
 >
 ```text
-> * How Java connects to MySQL using JDBC
-> * How backend applications are structured
-> * How CRUD operations work internally
-> * Why frameworks like Spring Boot are needed
-> * ```
+* How Java connects to MySQL using JDBC
+* How backend applications are structured
+* How CRUD operations work internally
+* Why frameworks like Spring Boot are needed
+ ```
